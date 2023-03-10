@@ -1,0 +1,17 @@
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\bin\Debug\net7.0\AddressBoook.exe
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\bin\Debug\net7.0\AddressBoook.deps.json
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\bin\Debug\net7.0\AddressBoook.runtimeconfig.json
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\bin\Debug\net7.0\AddressBoook.dll
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\bin\Debug\net7.0\AddressBoook.pdb
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\AddressBoook.csproj.AssemblyReference.cache
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\AddressBoook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\AddressBoook.AssemblyInfoInputs.cache
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\AddressBoook.AssemblyInfo.cs
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\AddressBoook.csproj.CoreCompileInputs.cache
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\AddressBoook.dll
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\refint\AddressBoook.dll
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\AddressBoook.pdb
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\AddressBoook.genruntimeconfig.cache
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\ref\AddressBoook.dll
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Delor\RiderProjects\AddressBoook\AddressBoook\obj\Debug\net7.0\AddressBoook.csproj.CopyComplete
