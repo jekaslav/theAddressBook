@@ -1,24 +1,14 @@
-﻿using System.Collections;
-using Newtonsoft.Json;
-using static System.Console;
+﻿using static System.Console;
 
 namespace AddressBoook
 {
-    class Program
+    public static class Program
     {
+        static int width = Console.LargestWindowWidth / 2 + 1;
+        static int height = Console.LargestWindowHeight;
         public static void Main(string[] args)
         {
-            AddressBook addressbook = new AddressBook();
-            string[] files = Directory.GetFiles(AddressBook.PathWritingContact);
-            foreach (var file in files)
-            {
-                var readToJson = File.ReadAllText(file);
-                Contact? obj = JsonConvert.DeserializeObject<Contact>(readToJson);
-                
-                    if (obj != null)
-                        addressbook.Contacts.Add(obj);
-            }
-
+            var addressbook = new AddressBook();
             while (true)
             {
                 WriteLine("Choose an action:");
@@ -26,7 +16,8 @@ namespace AddressBoook
                 WriteLine("2. View contacts");
                 WriteLine("3. Search contacts");
                 WriteLine("4. Remove a contact");
-                WriteLine("5. Goodbye!");
+                WriteLine("5. Update the contact");
+                WriteLine("6. Goodbye!");
 
                 var parsed = int.TryParse(ReadLine(), out var action);
                 if (!parsed)
@@ -37,21 +28,24 @@ namespace AddressBoook
                 switch (action)
                 {
                     case 1:
-                        AddressBook.AddContact(addressbook);
+                        addressbook.AddContact();
                         break;
                     case 2:
-                        AddressBook.ViewContacts(addressbook);
+                        addressbook.ViewContacts();
                         break;
                     case 3:
-                        AddressBook.SearchContacts(addressbook);
+                        addressbook.SearchContacts();
                         break;
-                     case 4:
-                         AddressBook.RemoveContact(addressbook);
-                         break;
+                    case 4:
+                        addressbook.RemoveContact();
+                          break;
                     case 5:
-                        return;
+                        addressbook.UpdateContact();
+                        break;
+                    case 6:
+                        return; 
                     default:
-                        WriteLine("Wrong action");
+                            WriteLine("Wrong action");
                         break;
                 }
             }
